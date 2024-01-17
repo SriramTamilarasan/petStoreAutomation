@@ -15,7 +15,6 @@ public class ResponseClass2 {
 		
 		Response res = given()
 			.contentType(ContentType.JSON)
-			.accept(ContentType.JSON)
 			.body(payload)
 		.when()
 			.post(RoutesClass.post_url);
